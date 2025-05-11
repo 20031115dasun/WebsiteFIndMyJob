@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Subscription and Review Page</title>
+    <link rel="stylesheet" href="Review.css">
+</head>
+<body>
+    <header>
+        <a href="Home.html" class="logo-link">
+            <img src="Images/nobg.png" class="logo" alt="Logo">
+        </a>
+        <ul class="hover1">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="About.html">About</a></li>
+            <li><a href="gallery_Page.html">Gallery</a></li>
+            <li><a href="quizz.html">Quiz</a></li>
+            <li><a href="Shop.html">Shop</a></li>
+            <li><a href="Review.html">Review</a></li>
+            <li><a href="signin.html">SignIn</a></li>
+        </ul>
+    </header>
+
+    <button class="toggle-btn" id="toggle-color-picker">Show Color Picker</button>
+
+    <div class="color-picker" id="color-picker">
+        <label for="bg-color">Select Background Color:</label>
+        <select id="bg-color">
+            <option value="white">White</option>
+            <option value="lightgray">Light Gray</option>
+            <option value="lightblue">Light Blue</option>
+            <option value="lightgreen">Light Green</option>
+        </select>
+        <label for="font-size">Select Font Size:</label>
+        <select id="font-size">
+            <option value="14px">14px</option>
+            <option value="16px">16px</option>
+            <option value="18px">18px</option>
+            <option value="20px">20px</option>
+            <option value="24px">24px</option>
+        </select>
+    </div>
+
+    <section id="contact" class="contact-section">
+        <div class="contact-container">
+            <h2>Review Form</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>Let's talk about everything!</h3>
+                    <p>Hate forms? Send us an email instead.</p>
+                </div>
+                <form class="contact-form" action="#" method="post">
+                    <div class="field">
+                        <label for="name">Full Name</label>
+                        <input type="text" id="name" name="name" placeholder="Your Name" required>
+                    </div>
+                    <div class="field">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" placeholder="Your Email" required>
+                    </div>
+                    <div class="field">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" placeholder="Your Message" rows="5" required></textarea>
+                    </div>
+                    <div class="field-button">
+                        <button type="submit">Send Review</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    
+    <section class="reviews-section">
+        <div class="slider">
+            <div class="slider-wrapper">
+                <div class="slider-slide">
+                    <div class="reviewBox">
+                        <img src="Images/right-quote.png" class="quote">
+                        <div class="review">
+                            <p>Found my dream job within a week! The application process was seamless and the recommendations were spot on. The platform's user interface made job hunting stress-free, and I appriciated the relevent job suggestions.</p>
+                            <div class="details">
+                                <div class="imageBox">
+                                    <img src="Images/user1.jpg">
+                                </div>
+                                <h3>James T.<br><span>Marketing Manager</span></h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="slider-slide">
+                    <div class="reviewBox">
+                        <img src="Images/right-quote.png" class="quote">
+                        <div class="review">
+                            <p>Great platform with a wide variety of job listings. I appreciated the detailed job descriptions and easy application process. The frequent updates and personalized job alerts were very helpful in my search.</p>
+                            <div class="details">
+                                <div class="imageBox">
+                                    <img src="Images/user2.png">
+                                </div>
+                                <h3>Emily R.<br><span>Software Developer</span></h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="slider-slide">
+                    <div class="reviewBox">
+                        <img src="Images/right-quote.png" class="quote">
+                        <div class="review">
+                            <p>The website is very user-friendly and the job alerts kept me updates on new opportunities. Highly recommend! The customer support team was also very responsive and helpful with my inquiries.</p>
+                            <div class="details">
+                                <div class="imageBox">
+                                    <img src="Images/user1.jpg">
+                                </div>
+                                <h3>Michael B.<br><span>Sales Representative</span></h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="slider-slide">
+                    <div class="reviewBox">
+                        <img src="Images/right-quote.png" class="quote">
+                        <div class="review">
+                            <p>Good platform, but I wish there were more remote job options. Otherwise, the job listing were relevant to my field. The detailed company profiles helped me make informed decisions about where to apply.</p>
+                            <div class="details">
+                                <div class="imageBox">
+                                    <img src="Images/user1.jpg">
+                                </div>
+                                <h3>David K.<br><span>Data Analyst</span></h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="slider-slide">
+                    <div class="reviewBox">
+                        <img src="Images/right-quote.png" class="quote">
+                        <div class="review">
+                            <p>Had some issues with the search filters, but overall a decent experience. Managed to land a couple of interviews. The resume tips and interview advice provided were also very useful during my job search.</p>
+                            <div class="details">
+                                <div class="imageBox">
+                                    <img src="Images/user2.png">
+                                </div>
+                                <h3>Sophia L.<br><span>Graphic Designer</span></h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>    
+                <div class="slider-slide">
+                    <div class="reviewBox">
+                        <img src="Images/right-quote.png" class="quote">
+                        <div class="review">
+                            <p>I found the perfect job thanks to this site. The resume builder tool was also a huge help in updatng my CV. I appreciated the variety of job listings and ease of applying directly through the site.</p>
+                            <div class="details">
+                                <div class="imageBox">
+                                    <img src="Images/user2.png">
+                                </div>
+                                <h3>Olivia W.<br><span>Human Resources Specialist</span></h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>    
+                <div class="slider-slide">
+                    <div class="reviewBox">
+                        <img src="Images/right-quote.png" class="quote">
+                        <div class="review">
+                            <p>I appreciate the variaty of industries covered, but I found some listings to be outdated. Overall, a usefull tool in my job search. The job recommendations were generally accurate and matched my skills.</p>
+                            <div class="details">
+                                <div class="imageBox">
+                                    <img src="Images/user1.jpg">
+                                </div>
+                                <h3>Liam M.<br><span>Financial Analyst</span></h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>   
+                <div class="slider-slide">
+                    <div class="reviewBox">
+                        <img src="Images/right-quote.png" class="quote">
+                        <div class="review">
+                            <p>Customer servise was very responsive when I had questions about my account. Found a great job thanks to their support. The job search tools and career resourcesavailable were very beneficial.</p>
+                            <div class="details">
+                                <div class="imageBox">
+                                    <img src="Images/user2.png">
+                                </div>
+                                <h3>Emma C.<br><span>Project Manager</span></h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>   
+                <div class="slider-slide">
+                    <div class="reviewBox">
+                        <img src="Images/right-quote.png" class="quote">
+                        <div class="review">
+                            <p>I found a job quickly using this site. The interview tips and resources were incredibly helpful in preparing me for the process. The site's design made it easy to track my applications and recieve updates.</p>
+                            <div class="details">
+                                <div class="imageBox">
+                                    <img src="Images/user1.jpg">
+                                </div>
+                                <h3>Noah D.<br><span>Customer Support Specialist</span></h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>   
+                <div class="slider-slide">
+                    <div class="reviewBox">
+                        <img src="Images/right-quote.png" class="quote">
+                        <div class="review">
+                            <p>This site is well-organized and easy to navigate. The company reviews helped me make informed decisions about where to apply. I found career advise articles very helpful in preparing for interviews.</p>
+                            <div class="details">
+                                <div class="imageBox">
+                                    <img src="Images/user2.png">
+                                </div>
+                                <h3>Ava S.<br><span>Content Writer</span></h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>   
+    <div class="slider-button-next"></div>
+    <div class="slider-button-prev"></div>
+    <div class="slider-pagination"></div>
+</div>
+    </section>
+
+    <div class="footer-bg">
+        <div class="footer-container">
+            <div class="footer-content">
+                <div class="footer-column">
+                    <h3 class="footer-heading">Company</h3>
+                    <ul class="footer-links">
+                        <li><a href="#" class="footer-link">Blogs</a></li>
+                        <li><a href="#" class="footer-link">Our Team</a></li>
+                        <li><a href="#" class="footer-link">Join Our Team</a></li>
+                        <li><a href="#" class="footer-link">Support</a></li>
+                        <li><a href="#" class="footer-link">Partnerships</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3 class="footer-heading">Learn</h3>
+                    <ul class="footer-links">
+                        <li><a href="#" class="footer-link">Our Story</a></li>
+                        <li><a href="#" class="footer-link">Top Jobs</a></li>
+                        <li><a href="#" class="footer-link">Content</a></li>
+                        <li><a href="#" class="footer-link">Benefits</a></li>
+                        <li><a href="#" class="footer-link">FAQ's</a></li>
+                        <li><a href="editorsstu4.html" class="footer-link">Editor</a></li>
+
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3 class="footer-heading">More from FindMyJob</h3>
+                    <ul class="footer-links">
+                        <li><a href="#" class="footer-link">Sign In</a></li>
+                        <li><a href="#" class="footer-link">Opportunities</a></li>
+                        <li><a href="#" class="footer-link">Affiliate</a></li>
+                        <li><a href="#" class="footer-link">Contact Us</a></li>
+                        <li><a href="#" class="footer-link" id="get-in-touch">Get In Touch</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3 class="footer-heading">Follow us</h3>
+                    <div class="footer-social-links">
+                        <a href="#" class="social-link">
+                            <img src="Images/linkedin.png" alt="LinkedIn">
+                        </a>
+                        <a href="#" class="social-link">
+                            <img src="Images/facebook.png" alt="Facebook">
+                        </a>
+                        <a href="#" class="social-link">
+                            <img src="Images/instagram.png" alt="Instagram">
+                        </a>
+                        <a href="#" class="social-link">
+                            <img src="Images/twitter.png" alt="Twitter">
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 FindMyJob All Right Reserved</p>
+                <div class="footer-policies">
+                    <a href="#" class="footer-policy-link">Terms of Service</a>
+                    <a href="#" class="footer-policy-link">Privacy Policy</a>
+                    <a href="#" class="footer-policy-link">Refund Policy</a>
+                    <a href="#" class="footer-policy-link">Accessibility Policy</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="popup" id="get-in-touch-popup">
+        <div class="popup-content">
+            <h2>Get In Touch</h2>
+            <button class="close-btn" id="close-btn">x</button>
+            <form id="query-form">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email:</label>
+                <input type="text" id="email" name="email" required>
+
+                <label for="query-theme">Query Theme:</label>
+                <select id="query-theme" name="query-theme" required>
+                    <option value="">Select a theme</option>
+                    <option value="general">General Inquiry</option>
+                    <option value="services">Services</option>
+                    <option value="partnership">Partnership</option>
+                    <option value="support">Support</option>
+                </select>
+
+                <label for="query">Query:</label>
+                <textarea id="query" name="query" required></textarea>
+
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+    </div>
+
+    <script>
+        // JavaScript for the color picker and font size adjustments
+        document.getElementById('toggle-color-picker').addEventListener('click', function() {
+            var colorPicker = document.getElementById('color-picker');
+            if (colorPicker.style.display === 'none' || colorPicker.style.display === '') {
+                colorPicker.style.display = 'block';
+            } else {
+                colorPicker.style.display = 'none';
+            }
+        });
+
+        document.getElementById('bg-color').addEventListener('change', function() {
+            document.body.style.backgroundColor = this.value;
+        });
+
+        document.getElementById('font-size').addEventListener('change', function() {
+            document.body.style.fontSize = this.value;
+        });
+
+        // JavaScript for the popup form
+        document.getElementById('get-in-touch').addEventListener('click', function() {
+            document.getElementById('get-in-touch-popup').style.display = 'block';
+        });
+
+        document.getElementById('close-btn').addEventListener('click', function() {
+            document.getElementById('get-in-touch-popup').style.display = 'none';
+        });
+
+        // Prevent form submission in demo
+        document.getElementById('query-form').addEventListener('submit', function(event) {
+            event.preventDefault();
+            alert('Query submitted!');
+            document.getElementById('get-in-touch-popup').style.display = 'none';
+        });
+    </script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

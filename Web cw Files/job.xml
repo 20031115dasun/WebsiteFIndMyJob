@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jobs>
+    <job>
+        <title>Travel Nurse RN - Long Term Care</title>
+        <company>Rock Medical Group</company>
+        <location>Scottsbluff, NE</location>
+        <datePosted>5 days ago</datePosted>
+        <description>Weekend - 6p-6a for 13 weeks - Let me know if you are interested...</description>
+        <salary>$2,278 per week</salary>
+    </job>
+    <job>
+        <title>Travel Nurse RN - Telemetry</title>
+        <company>Rock Medical Group</company>
+        <location>South Charleston, WV</location>
+        <datePosted>3 days ago</datePosted>
+        <description>Pulmonary &amp; Observation - Let me know if you are interested...</description>
+        <salary>$2,499 per week</salary>
+    </job>
+    <job>
+        <title>Travel Nurse RN - Labor and Delivery</title>
+        <company>Some Medical Group</company>
+        <location>Somewhere, IL</location>
+        <datePosted>2 days ago</datePosted>
+        <description>Full-time - 6a-6p for 12 weeks - Join our team now!</description>
+        <salary>$2,620 per week</salary>
+    </job>
+    <job>
+        <title>Licensed Practical Nurse (LPN)</title>
+        <company>Caring Health Center</company>
+        <location>Cityville, TX</location>
+        <datePosted>1 week ago</datePosted>
+        <description>Part-time - Flexible hours - Apply now!</description>
+        <salary>$25-30 per hour</salary>
+    </job>
+    <job>
+        <title>Certified Nursing Assistant (CNA)</title>
+        <company>Compassionate Care Facility</company>
+        <location>Townsville, CA</location>
+        <datePosted>4 days ago</datePosted>
+        <description>Night shift - Great benefits package - Apply today!</description>
+        <salary>$15-18 per hour</salary>
+    </job>
+    <job>
+        <title>Blockchain Developer</title>
+        <location>Salt Lake City, UT</location>
+        <description>Develop decentralized applications using blockchain technology.</description>
+        <datePosted>2024-06-23</datePosted>
+    </job>
+    <job>
+        <title>Technical Writer</title>
+        <location>Richmond, VA</location>
+        <description>Create technical documentation and user manuals.</description>
+        <datePosted>2024-06-22</datePosted>
+    </job>
+    <job>
+        <title>Social Media Manager</title>
+        <location>Raleigh, NC</location>
+        <description>Manage and grow social media presence and engagement.</description>
+        <datePosted>2024-06-21</datePosted>
+    </job>
+    <job>
+        <title>IT Support Specialist</title>
+        <location>Baltimore, MD</location>
+        <description>Provide IT support and troubleshoot technical issues.</description>
+        <datePosted>2024-06-20</datePosted>
+    </job>
+    <job>
+        <title>Data Engineer</title>
+        <location>Albuquerque, NM</location>
+        <description>Design and build data pipelines for analytics and reporting.</description>
+        <datePosted>2024-06-19</datePosted>
+    </job>
+    <job>
+        <title>Game Developer</title>
+        <location>Los Angeles, CA</location>
+        <description>Create and develop video games across platforms.</description>
+        <datePosted>2024-06-18</datePosted>
+    </job>
+    <job>
+        <title>Art Director</title>
+        <location>New Orleans, LA</location>
+        <description>Lead the visual and artistic aspects of projects.</description>
+        <datePosted>2024-06-17</datePosted>
+    </job>
+    <job>
+        <title>Human Resources Manager</title>
+        <location>Memphis, TN</location>
+        <description>Oversee HR functions including recruitment and employee relations.</description>
+        <datePosted>2024-06-16</datePosted>
+    </job>
+    <job>
+        <title>Salesforce Administrator</title>
+        <location>Pittsburgh, PA</location>
+        <description>Manage and customize Salesforce CRM for business needs.</description>
+        <datePosted>2024-06-15</datePosted>
+    </job>
+    <job>
+        <title>Environmental Engineer</title>
+        <location>Boise, ID</location>
+        <description>Develop solutions for environmental issues and sustainability.</description>
+        <datePosted>2024-06-14</datePosted>
+    </job>
+    <job>
+        <title>Electrical Technician</title>
+        <location>Fort Worth, TX</location>
+        <description>Install and maintain electrical systems and equipment.</description>
+        <datePosted>2024-06-13</datePosted>
+    </job>
+    <job>
+        <title>Legal Assistant</title>
+        <location>Honolulu, HI</location>
+        <description>Provide administrative support in a legal environment.</description>
+        <datePosted>2024-06-12</datePosted>
+    </job>
+</jobs>

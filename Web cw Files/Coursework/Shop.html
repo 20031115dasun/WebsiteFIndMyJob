@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Buy Product</title>
+    <link rel="stylesheet" href="buyProduct.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'> 
+    <script src="buyProduct.js" defer></script>
+
+</head>
+<body>
+    <header>
+        <a href="Home.html" class="logo-link">
+            <img src="Images/nobg.png" class="logo" alt="Logo">
+        </a>
+        <ul class="hover1">
+            <li><a href="Home.html">Home</a></li>
+            <li><a href="About.html">About</a></li>
+            <li><a href="gallery_Page.html">Gallery</a></li>
+            <li><a href="quizz.html">Quiz</a></li>
+            <li><a href="Shop.html">Shop</a></li>
+            <li><a href="Review.html">Review</a></li>
+            <li><a href="signin.html">SignIn</a></li>
+        </ul>
+    </header>
+        <div class="cart">
+            <h2 class="cart-title">Your cart</h2>
+            <!-- content -->
+             <div class="cart-content">
+
+             </div>
+             <!-- Total -->
+            <div class="total">
+                <div class="total-Title">Total : </div>
+                <div class="total-price">Rs.50/=</div>
+            </div>  
+            <button type="button" class="btn-buy">Buy now</button>
+            <!-- Cart close -->
+            <i class='bx bx-x' id="close-cart"></i>
+        </div>
+    </header>
+    <!-- shop -->
+    <section class="shop container">
+        <h2 class="section-title">
+            Products available     <i class='bx bxs-cart' id="cart-icon"></i> </h2>
+ 
+        <!-- content     -->
+        <div class="shop-content">
+            <!-- Box1 -->
+            <div class="product-box" onclick="showJobDetails('Web Developer', 'Develop and maintain web applications...', 'Softaisa Pvt')">
+                <img src="Tshirt.jpg" alt="" class="product-img">
+                <h2 class="product-title">AEROREADY SHIRT</h2>
+                <span class="price">Rs.2500/=</span>
+                <i class='bx bxs-shopping-bag add-cart'></i>        
+            </div>
+
+            <!-- Box2 -->
+            <div class="product-box" onclick="showJobDetails('Web Developer', 'Develop and maintain web applications...', 'Softaisa Pvt')">
+                <img src="Tshirt2.jpg" alt="" class="product-img">
+                <h2 class="product-title">NEON SHIRT</h2>
+                <span class="price">Rs.3500/=</span>
+                <i class='bx bxs-shopping-bag add-cart'></i>        
+            </div>
+
+            <!-- Box3 -->
+            <div class="product-box" onclick="showJobDetails('Web Developer', 'Develop and maintain web applications...', 'Softaisa Pvt')">
+                <img src="shoe.jpg" alt="" class="product-img">
+                <h2 class="product-title">NIKE SKY</h2>
+                <span class="price">Rs.8000/=</span>
+                <i class='bx bxs-shopping-bag add-cart'></i>        
+            </div>
+
+            <!-- Box3 -->
+            <div class="product-box" onclick="showJobDetails('Web Developer', 'Develop and maintain web applications...', 'Softaisa Pvt')">
+                <img src="watch.jpg" alt="" class="product-img">
+                <h2 class="product-title">ROLLEX GROUND</h2>
+                <span class="price">Rs.43,200/=</span>
+                <i class='bx bxs-shopping-bag add-cart'></i>        
+            </div>
+
+            <!-- Box4 -->
+            <div class="product-box" onclick="showJobDetails('Web Developer', 'Develop and maintain web applications...', 'Softaisa Pvt')">
+                <img src="perfume.jpg" alt="" class="product-img">
+                <h2 class="product-title">KANTHI FRAG</h2>
+                <span class="price">Rs.7000/=</span>
+                <i class='bx bxs-shopping-bag add-cart'></i>        
+            </div>
+
+            <!-- Box5 -->
+            <div class="product-box" onclick="showJobDetails('Web Developer', 'Develop and maintain web applications...', 'Softaisa Pvt')">
+                <img src="shoe2.jpg" alt="" class="product-img">
+                <h2 class="product-title">PUMA KING</h2>
+                <span class="price">Rs.8000/=</span>
+                <i class='bx bxs-shopping-bag add-cart'></i>        
+            </div>
+
+            <!-- Box6 -->
+            <div class="product-box" onclick="showJobDetails('Web Developer', 'Develop and maintain web applications...', 'Softaisa Pvt')">
+                <img src="watch2.jpg" alt="" class="product-img">
+                <h2 class="product-title">CASIO SEAHORE</h2>
+                <span class="price">Rs.2500/=</span>
+                <i class='bx bxs-shopping-bag add-cart'></i>        
+            </div>
+
+            <!-- Box7 -->
+            <div class="product-box" onclick="showJobDetails('Web Developer', 'Develop and maintain web applications...', 'Softaisa Pvt')">
+                <img src="perfume2.jpg" alt="" class="product-img">
+                <h2 class="product-title">JASMINE FRAG</h2>
+                <span class="price">Rs.500/=</span>
+                <i class='bx bxs-shopping-bag add-cart'></i>        
+            </div>
+        </div> 
+    </section>
+    <div id="popup-job" class="job-des">
+        <div class="job-content">
+            <span class="close-btn">&times;</span>
+            <h2 style="align-items: center;" id="jobTitle"></h2>
+            <br>
+            <p id="jobDescription"></p>
+            <br>
+            <p id="jobCompany"></p>
+            <br>
+            <br>
+            <form id="jobApplicationForm">
+                <label for="userName">Name:</label>
+                <input type="text" id="userName" name="userName" required><br>
+                <label for="userEmail">Email:</label>
+                <input type="email" id="userEmail" name="userEmail" required><br>
+                <label for="userPhone">Phone Number:</label>
+                <input type="text" id="userPhone" name="userPhone" required><br>
+                <label for="userCV">Upload CV:</label>
+                <input type="file" id="userCV" name="userCV" required><br>
+                <button type="submit">Apply</button>
+            </form>
+        </div>
+    </div>
+    <div class="footer-bg">
+        <div class="footer-container">
+            <div class="footer-content">
+                <div class="footer-column">
+                    <h3 class="footer-heading">Company</h3>
+                    <ul class="footer-links">
+                        <li><a href="#" class="footer-link">Blogs</a></li>
+                        <li><a href="#" class="footer-link">Our Team</a></li>
+                        <li><a href="#" class="footer-link">Join Our Team</a></li>
+                        <li><a href="#" class="footer-link">Support</a></li>
+                        <li><a href="#" class="footer-link">Partnerships</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3 class="footer-heading">Learn</h3>
+                    <ul class="footer-links">
+                        <li><a href="#" class="footer-link">Our Story</a></li>
+                        <li><a href="#" class="footer-link">Top Jobs</a></li>
+                        <li><a href="#" class="footer-link">Content</a></li>
+                        <li><a href="#" class="footer-link">Benefits</a></li>
+                        <li><a href="#" class="footer-link">FAQ's</a></li>
+                        <li><a href="editorsstu2.html" class="footer-link">Editor</a></li>
+
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3 class="footer-heading">More from FindMyJob</h3>
+                    <ul class="footer-links">
+                        <li><a href="#" class="footer-link">Sign In</a></li>
+                        <li><a href="#" class="footer-link">Opportunities</a></li>
+                        <li><a href="#" class="footer-link">Affiliate</a></li>
+                        <li><a href="#" class="footer-link">Contact Us</a></li>
+                        <li><a href="#" class="footer-link" id="get-in-touch">Get In Touch</a></li>
+
+                    </ul>
+
+                </div>
+                <div class="footer-column">
+                    <h3 class="footer-heading">Follow us</h3>
+                    <div class="footer-social-links">
+                        <a href="#" class="social-link">
+                            <img src="Images/linkedin.png" alt="linkedin" />
+                        </a>
+                        <a href="#" class="social-link">
+                            <img src="Images/facebook.png" alt="Facebook" />
+                        </a>
+                        <a href="#" class="social-link">
+                            <img src="Images/instagram.png" alt="Instagram" />
+                        </a>
+                        <a href="#" class="social-link">
+                            <img src="Images/twitter.png" alt="Twitter" />
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 FindMyJob   All Right Reserved</p>
+                <div class="footer-policies">
+                    <a href="#" class="footer-policy-link">Terms of Service</a>
+                    <a href="#" class="footer-policy-link">Privacy Policy</a>
+                    <a href="#" class="footer-policy-link">Refund Policy</a>
+                    <a href="#" class="footer-policy-link">Accessibility Policy</a>
+                </div>
+            </div>
+        </div>
+        </div>
+</body>
+</html>
