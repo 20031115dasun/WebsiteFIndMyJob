@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gallery Page</title>
+    <link rel="stylesheet" href="gallery_Style.css" />
+  </head>
+  <body>
+
+    <header>
+      <a href="Home.html" class="logo-link">
+          <img src="Images/nobg.png" class="logo" alt="Logo">
+      </a>
+      <ul class="hover1">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="About.html">About</a></li>
+          <li><a href="gallery_Page.html">Gallery</a></li>
+          <li><a href="quizz.html">Quiz</a></li>
+          <li><a href="Shop.html">Shop</a></li>
+          <li><a href="Review.html">Review</a></li>
+          <li><a href="signin.html">SignIn</a></li>
+      </ul>
+  </header>
+
+
+
+    <section class="slider-container">
+      <div class="slider-images">
+        <div class="slider-img active">
+          <img src="Images/1.jpg" alt="2" />
+          <h1>find</h1>
+          <div class="details">
+            <h2>find</h2>
+            <p>Marketing Specialist</p>
+          </div>
+        </div>
+        <div class="slider-img">
+          <img src="Images/2.jpg" alt="3" />
+          <h1>your</h1>
+          <div class="details">
+            <h2>your</h2>
+            <p>Project Manager</p>
+          </div>
+        </div>
+        <div class="slider-img ">
+          <img src="Images/3.jpg" alt="4" />
+          <h1>dream</h1>
+          <div class="details">
+            <h2>dream</h2>
+            <p>web Developer</p>
+          </div>
+        </div>
+        <div class="slider-img">
+          <img src="Images/4.jpg" alt="5" />
+          <h1>job</h1>
+          <div class="details">
+            <h2>job</h2>
+            <p>Event Planer</p>
+          </div>
+        </div>
+        <div class="slider-img">
+          <img src="Images/5.jpg" alt="6" />
+          <h1>today</h1>
+          <div class="details">
+            <h2>today</h2>
+            <p>Mechanical Engineer</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="footer-bg">
+      <div class="footer-container">
+          <div class="footer-content">
+              <div class="footer-column">
+                  <h3 class="footer-heading">Company</h3>
+                  <ul class="footer-links">
+                      <li><a href="#" class="footer-link">Blogs</a></li>
+                      <li><a href="#" class="footer-link">Our Team</a></li>
+                      <li><a href="#" class="footer-link">Join Our Team</a></li>
+                      <li><a href="#" class="footer-link">Support</a></li>
+                      <li><a href="#" class="footer-link">Partnerships</a></li>
+                  </ul>
+              </div>
+              <div class="footer-column">
+                  <h3 class="footer-heading">Learn</h3>
+                  <ul class="footer-links">
+                      <li><a href="#" class="footer-link">Our Story</a></li>
+                      <li><a href="#" class="footer-link">Top Jobs</a></li>
+                      <li><a href="#" class="footer-link">Content</a></li>
+                      <li><a href="#" class="footer-link">Benefits</a></li>
+                      <li><a href="#" class="footer-link">FAQ's</a></li>
+                  </ul>
+              </div>
+              <div class="footer-column">
+                  <h3 class="footer-heading">More from FindMyJob</h3>
+                  <ul class="footer-links">
+                      <li><a href="#" class="footer-link">Sign In</a></li>
+                      <li><a href="#" class="footer-link">Opportunities</a></li>
+                      <li><a href="#" class="footer-link">Affiliate</a></li>
+                      <li><a href="#" class="footer-link">Contact Us</a></li>
+                      <li><a href="#" class="footer-link" id="get-in-touch">Get In Touch</a></li>
+
+                  </ul>
+
+              </div>
+              <div class="footer-column">
+                  <h3 class="footer-heading">Follow us</h3>
+                  <div class="footer-social-links">
+                      <a href="#" class="social-link">
+                          <img src="Images/linkedin.png" alt="linkedin" />
+                      </a>
+                      <a href="#" class="social-link">
+                          <img src="Images/facebook.png" alt="Facebook" />
+                      </a>
+                      <a href="#" class="social-link">
+                          <img src="Images/instagram.png" alt="Instagram" />
+                      </a>
+                      <a href="#" class="social-link">
+                          <img src="Images/twitter.png" alt="Twitter" />
+                      </a>
+                  </div>
+              </div>
+          </div>
+          <div class="footer-bottom">
+              <p>&copy; 2024 FindMyJob   All Right Reserved</p>
+              <div class="footer-policies">
+                  <a href="#" class="footer-policy-link">Terms of Service</a>
+                  <a href="#" class="footer-policy-link">Privacy Policy</a>
+                  <a href="#" class="footer-policy-link">Refund Policy</a>
+                  <a href="#" class="footer-policy-link">Accessibility Policy</a>
+              </div>
+          </div>
+      </div>
+      </div>
+
+
+    <script src="jQuery.js"></script>
+    <script>
+      jQuery(document).ready(function ($) {
+        $(".slider-img").on("click", function () {
+          $(".slider-img").removeClass("active");
+          $(this).addClass("active");
+        });
+      });
+    </script>
+  </body>
+</html>
